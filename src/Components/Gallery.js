@@ -2,7 +2,6 @@ import React from 'react'
 import chai from '../images/chailogo.jpeg';
 import rishis from '../images/rishiskitchen.jpeg';
 import vr from '../images/vr.jpeg';
-import vkings from '../images/vkingslogo.jpeg';
 import crickfoot from '../images/add.jpeg';
 const Gallery = () => {
   return (
