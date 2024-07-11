@@ -1,7 +1,5 @@
 import React from 'react'
-import pitch from '../images/pitch.jpeg';
 import turf from '../images/turf.jpeg';
-import vkingslogo from '../images/vkingslogo.jpeg';
 import slide1 from '../images/vkings1bc.jpeg';
 import slide2 from '../images/vkings2bc.jpeg';
 import arena from '../images/arena.jpeg';
