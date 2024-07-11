@@ -22,6 +22,7 @@ const Collections = () => {
           <div className='col-4 mb-4' key={index}>
             <img
               src={image}
+              alt="Image"
               className='img-thumbnail gallery-image'
               onClick={() => handleImageClick(image)}
             />
