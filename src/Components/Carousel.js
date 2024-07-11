@@ -2,7 +2,10 @@ import React from 'react'
 import pitch from '../images/pitch.jpeg';
 import turf from '../images/turf.jpeg';
 import vkingslogo from '../images/vkingslogo.jpeg';
+import slide1 from '../images/vkings1bc.jpeg';
+import slide2 from '../images/vkings2bc.jpeg';
 import arena from '../images/arena.jpeg';
+import add from '../images/add.jpeg';
 const Carousel = () => {
     return (
         <>
@@ -13,10 +16,11 @@ const Carousel = () => {
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={vkingslogo} className="d-block w-100" alt="Slide 1" />
+                            <img src={add} className="d-block w-100" alt="Slide 1" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
@@ -30,14 +34,21 @@ const Carousel = () => {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={arena} className="d-block w-100" alt="Slide 3" />
+                            <img src={slide1} className="d-block w-100" alt="Slide 3" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the third slide.</p>
                             </div>
                         </div>
                         <div className="carousel-item active">
-                            <img src={pitch} className="d-block w-100" alt="Slide 4" />
+                            <img src={arena} className="d-block w-100" alt="Slide 4" />
+                            <div className="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div className="carousel-item active">
+                            <img src={slide2} className="d-block w-100" alt="Slide 5" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
