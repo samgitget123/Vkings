@@ -2,10 +2,10 @@ import React from 'react'
 
 const handleOnlineBooking = () => {
   // This is the custom URL scheme for your app
-  const appUrl = 'yourapp://online-booking';
+  const appUrl = 'https://playo.co/venues/badangpet/v-kings-sportz-arena-bandangpet-hyderabad';
   
   // This is the fallback URL for the download page
-  const fallbackUrl = 'https://playo.co/';
+  const fallbackUrl = 'https://playo.co/venues/badangpet/v-kings-sportz-arena-bandangpet-hyderabad';
 
   const timeout = setTimeout(() => {
     window.location.href = fallbackUrl;
@@ -34,8 +34,8 @@ const Bookings = () => {
     <section className='bg-warning'>
     <div className='container mt-5 p-3'>
       <div className='row justify-content-center'>
-        <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-          <h2 className='text-center text-dark'>Bookings</h2>
+        <div className='col-12 d-flex justify-content-center'>
+          <h2 className='text-center fw-bold text-dark heading-with-border-booking'>Book Now</h2>
         </div>
       </div>
       <div className='row justify-content-center'>
